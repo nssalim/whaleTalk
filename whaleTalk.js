@@ -11,6 +11,9 @@
 // state text to be translated into 'whale talk'
 const input = 'whales are intelligent!';
 console.log('PHRASE: \n' + input)
+// Output:
+// PHRASE: 
+// whales are intelligent!
 
 // state vowels
 const vowels = ['a', 'e', 'i', 'o', 'u'];
@@ -48,3 +51,6 @@ resultArray.push(input[inputIndex]);
 // use console.log() and .join() to print 'whale talk'
 // capitilize the array elements
 console.log("\nWHALE TALK' translation: \n" + resultArray.join('').toUpperCase());;
+// Output:
+// WHALE TALK' translation: 
+// AEEAEEIEEIEE
